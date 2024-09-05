@@ -1,0 +1,61 @@
+.ContactOneContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.ContactOneWrapper{
+    width: 95%;
+    background-color: #FF885E;
+    border-radius: 20px;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   @media (max-width:500px) {
+    height: 70vh;
+   }
+    button{
+        background-color: #5F2A5D;
+        color: white;
+       height: 35px;
+       width: 80px;
+       border-radius: 20px;
+       @media (max-width:500px) {
+        display: block;
+       }
+        
+        
+    }
+    h1{
+        color: white;
+        font-size: 70px;
+        @media (max-width: 750px) {
+            font-size: 50px;
+        }
+        @media (max-width:450px) {
+            font-size: 40px;
+        }
+        @media (max-width:400px) {
+            font-size: 30px;
+        }
+    }
+    h3{
+        color: white
+    }
+}
+
+.ContactOneTextHolder{
+text-align: center;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+}
+.ContactOneIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

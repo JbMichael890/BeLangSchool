@@ -1,0 +1,108 @@
+.ContactTwoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.ContactTwoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+.ContactTwoHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    @media (max-width: 699px) {
+      font-size: 40px;
+    }
+    @media (max-width: 550px) {
+      font-size: 35px;
+    }
+    @media (max-width: 450px) {
+      font-size: 30px;
+    }
+    @media (max-width: 350px) {
+      font-size: 25px;
+    }
+  }
+  button {
+    height: 40px;
+    width: 110px;
+    font-family: Lexend;
+    background-color: #f0f0f0;
+    color: #5f2a5d;
+    font-size: 11px;
+    border-radius: 20px;
+  }
+  button:hover {
+    transform: scale(1);
+  }
+}
+.ContactForm {
+  display: flex;
+  justify-content: center;
+}
+.InputHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  @media (max-width: 542px) {
+    width: 70%;
+  }
+  input {
+    height: 39px;
+    width: 500px;
+    margin-left: 10px;
+    border: 1.5px solid #eee;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 16px;
+    background-color: #e8f0fe;
+    border-radius: 5px;
+    color: #5f2a5d;
+
+    &:hover {
+      border: 2px solid #ff885e;
+    }
+  }
+}
+textarea {
+  height: 40px;
+  width: 1000px;
+  border: 2px solid #eee;
+  margin-bottom: 20px;
+  color: #5f2a5d;
+  border-radius: 5px;
+  font-size: 14px;
+  &:hover {
+    border: 2px solid #ff885e;
+    border-radius: 5px;
+  }
+  @media (max-width: 978px) {
+    width: 70%;
+  }
+}
+.TextM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (max-width: 978px) {
+    width: 100%;
+  }
+  button {
+    height: 50px;
+    width: 160px;
+    font-family: Lexend;
+  }
+  button:hover {
+    transform: scale(1.1);
+    transition: all 400ms;
+  }
+}

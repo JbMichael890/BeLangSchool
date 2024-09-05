@@ -1,0 +1,90 @@
+.HomeThreeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.homeThreeWrapper {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    /* max-width: 700px; */
+    font-size: 48px;
+    color: #5f2a5d;
+  }
+}
+
+.HomeThreeCardsHolder {
+  width: 90%;
+  min-height: 400px;
+  background: url("../../../assets/jpg/img.jpg");
+  background-position: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fdcc8f;
+  margin-bottom: 100px;
+}
+
+.HomThreeCard {
+  background-color: #fff;
+  height: 285px;
+  width: 285px;
+  border-radius: 25px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+}
+.HomThreeCard:hover {
+  transform: scale(1.03);
+  transition: all 350ms;
+}
+
+.HomeThreeCardHolder {
+  width: 85%;
+  /* background-color: antiquewhite; */
+  h3 {
+    font-size: 20px;
+    color: #5f2a5d;
+  }
+
+  p {
+    color: #755365;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 500px) {
+  .HomeThreeCardsHolder {
+    background-color: white;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .homeThreeWrapper {
+    h1 {
+      font-size: 30px;
+      text-align: center;
+      @media (max-width: 450px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .HomThreeCard {
+    width: 90%;
+    text-align: center;
+  }
+}

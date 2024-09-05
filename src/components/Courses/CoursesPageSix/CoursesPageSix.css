@@ -1,0 +1,10 @@
+.CoursesPageSixContainer {
+  width: 100%;
+}
+.CoursesPageSixWrapper {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* object-fit: cover; */
+}

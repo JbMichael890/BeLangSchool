@@ -1,0 +1,70 @@
+.HomePageSevenContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.HomePageSevenWrapper {
+  width: 99%;
+  margin-bottom: 40px;
+}
+.HomePageSevenHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 99%;
+  margin-bottom: 50px;
+  p {
+    color: #8d99ae;
+    font-weight: 450;
+    margin-bottom: 80px;
+  }
+  h3 {
+    color: #5f2a5d;
+  }
+}
+.EndingText {
+  display: flex;
+  nav {
+    color: #8da6cb;
+    font-family: Sora;
+    font-size: 15px;
+  }
+  span {
+    color: #5f2a5d;
+    font-family: Sora;
+    font-size: 15px;
+  }
+}
+span:hover {
+  color: #ff885e;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .HomePageSevenWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  .HomePageSevenHeader {
+    flex-direction: column;
+    margin: 50px 30px;
+  }
+  .HomePageSevenAdressHolder {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .HomePageSevenOpening {
+    margin-bottom: 70px;
+  }
+}
+.logoTextHolder {
+  br {
+    @media (max-width: 500px) {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,123 @@
+.generalCoursesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.CoursesBoxWrapper {
+  width: 95%;
+  background-color: #f9eee1;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.CoursePageTextHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+}
+.CheckCourses {
+  color: #ff885e;
+  font-size: 60px;
+}
+.leveText {
+  color: #5f2a5d;
+  font-size: 60px;
+}
+.QuamarcuText {
+  color: #5f2a5d;
+}
+.AvailableCourses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  @media (max-width: 500px) {
+    font-size: 40px;
+  }
+  @media (max-width: 400px) {
+    font-size: 30px;
+    
+  }
+}
+.IconsHeader {
+  display: flex;
+  align-items: center;
+  margin: 90px 0px;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    br{
+      display: none;
+    }
+  }
+  
+
+  main {
+    background-color: #ff885e;
+    border-radius: 20px;
+    height: 38px;
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+  }
+
+  p {
+    font-size: 14px;
+
+    flex-wrap: wrap;
+    text-align: center;
+    color: #8a5365;
+    font-weight: 550;
+    margin: 25px;
+  }
+}
+.StepOneText {
+  flex-wrap: wrap;
+  text-align: center;
+}
+.CoursesIconHolderOne {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    width: 90px;
+    cursor: pointer;
+  }
+}
+
+.CoursesIconHolderTwo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  img {
+    width: 90px;
+    cursor: pointer;
+  }
+}
+
+.CoursesIconHolderThree {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  img {
+    width: 90px;
+    cursor: pointer;
+  }
+}
+
+h3 {
+  color: #5f2a5d;
+  margin: 0px;
+  @media (max-width: 400px) {
+    font-size: 16px;
+  }
+}

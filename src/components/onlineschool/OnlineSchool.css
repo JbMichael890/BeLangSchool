@@ -1,0 +1,40 @@
+.generalAboutPageTwoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.AboutPageTwoTextHolder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  flex-wrap: wrap;
+  @media (max-width: 600px) {
+    text-align: center;
+    br {
+      display: none;
+    
+    }
+    h1{
+      font-size: 40px;
+      @media (max-width:400px) {
+        font-size: 30px;
+      }
+    }
+  }
+
+  p {
+    color: #8b5365;
+    /* font-size: 15px; */
+    /* font-family: serif; */
+  }
+}
+.Suspendisse {
+  margin-top: 190px;
+}
+.Lacina{
+  @media (max-width: 600px) {
+    display: none;
+  }
+}

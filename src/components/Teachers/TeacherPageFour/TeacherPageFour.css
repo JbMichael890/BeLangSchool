@@ -1,0 +1,58 @@
+.TeacherPageFourContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.TeacherPageFourWrapper{
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  @media (max-width: 1100px){
+    flex-direction: column-reverse;
+  }
+  @media (max-width:500px) {
+    text-align: center;
+    br{
+      display: none;
+    }
+  }
+  p {
+    font-size: 18px;
+    color: #755397;
+  }
+  img {
+    width: 600px;
+    border-radius: 25px;
+    @media (max-width:600px) {
+      width: 100%;
+    }
+  }
+  h2 {
+    font-size: 40px;
+    color: #5f2a5d;
+  }
+}
+
+.TeacherPageFourTextHolder {
+  margin-bottom: 100px;
+  @media (max-width:500px) {
+    display: flex;
+  justify-content: center;
+align-items: center;
+  flex-direction: column;
+  }
+}
+.LineOne {
+  
+  hr {
+    height: 0.5px;
+    width: 150px;
+    border: none;
+    background-color: #ff885e;
+    margin: 15px 0px;
+  }
+}

@@ -1,0 +1,45 @@
+.headerNav {
+    display: flex;
+    align-items: center;
+  
+    nav {
+      margin: 0px 20px;
+      color: #602a5e;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    nav:active {
+      color: #fe885e;
+      transition: all 350ms;
+      /* &:active {
+        color: rgb(37 99 235);
+      } */
+    }
+    button {
+        margin-left: 20px;
+        height: 40px;
+        width: 95px;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 15px;
+        background-color: #f9eee1;
+        color: #602a5e;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+    
+      button:hover {
+        background-color: #fe885e;
+        color: #fff;
+        transition: all 350ms;
+      }
+    
+      .burgerMenu {
+        /* display: none; */
+        cursor: pointer;
+        font-size: 25px;
+        cursor: pointer;
+        color: #fe885e;
+      }
+    }

@@ -1,0 +1,58 @@
+.TeachersIconWrapper {
+  display: flex;
+  align-items: center;
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+  }
+}
+.TeachersIconOne {
+  height: 70px;
+  width: 70px;
+  background-color: #f5f8fc;
+  transition: all 350ms;
+  cursor: pointer;
+}
+.TeachersIconOne:hover {
+  background-color: #3a589b;
+  color: white;
+}
+
+.TeachersIconTwo {
+  height: 70px;
+  width: 70px;
+  background-color: #f5f8fc;
+  transition: all 350ms;
+  cursor: pointer;
+}
+.TeachersIconTwo:hover {
+  background-color: #007bb6;
+  color: white;
+}
+
+.TeachersIconThree {
+  height: 70px;
+  width: 70px;
+  background-color: #f5f8fc;
+  transition: all 350ms;
+  cursor: pointer;
+}
+.TeachersIconThree:hover {
+  background-color: #32ccfe;
+  color: white;
+}
+
+.TeachersIconFour {
+  height: 70px;
+  width: 70px;
+  background-color: #f5f8fc;
+  cursor: pointer;
+  transition: all 350ms;
+}
+
+.TeachersIconFour:hover {
+  background-color: #EC4A89;
+  color: white;
+}
