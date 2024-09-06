@@ -1,9 +1,9 @@
 import "./Header.css";
 import logo from "../../assets/svg/language4.svg";
-import SideBar from "../SideBar/SideBar";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Link } from "react-router-dom";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import SideBar from "../SideBar/SideBar";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -19,27 +19,27 @@ const Header = () => {
             <img src={logo} alt="logo" />
           </div>
           <div className="headerNav">
-            <NavLink className="link" to="/">
+            <Link className="link" to="/">
               <nav>Home</nav>
-            </NavLink>
-            <NavLink className="link" to="/courses">
+            </Link>
+            <Link className="link" to="/courses">
               <nav>Courses</nav>
-            </NavLink>
-            <NavLink className="link" to="/about">
+            </Link>
+            <Link className="link" to="/about">
               <nav>About Us</nav>
-            </NavLink>
-            <NavLink className="link" to="/teacher">
+            </Link>
+            <Link className="link" to="/teacher">
               <nav>Teachers</nav>
-            </NavLink>
-            <NavLink className="link" to="/contact">
+            </Link>
+            <Link className="link" to="/contact">
               <nav>Contact</nav>
-            </NavLink>
-            <div>
-              <button>Call Us</button>
+            </Link>
+            <main className="burgerMenu">
+            <div onClick={getToggle} >
+              <RxHamburgerMenu />
             </div>
-          </div>
-          <div className="burgerMenu">
-            <RxHamburgerMenu onClick={getToggle} />
+            </main>
+            <button>Call Us</button>
           </div>
         </div>
       </div>

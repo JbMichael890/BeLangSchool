@@ -9,7 +9,7 @@ const CoursesPage = () => {
     <div className="generalCoursesContainer">
       <div className="CoursesBoxWrapper">
         <div className="CoursePageTextHolder">
-          <BeLangComp />
+          <nav style={{marginTop:"40px"}}><BeLangComp /></nav>
           <h1 className="AvailableCourses">
           <nav style={{color: "#FF885E"}}>
             Check available <br />courses

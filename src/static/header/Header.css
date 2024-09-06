@@ -1,13 +1,14 @@
 .generalHeaderContainer {
   display: flex;
-  background-color: #ffffff;
   justify-content: center;
   align-items: center;
   height: 95px;
   position: fixed;
-  top: 0;
+  z-index: 999;
   left: 0;
   right: 0;
+  top: 0;
+  background-color: #ffffff;
 }
 
 .generalHeaderWrapper {
@@ -29,16 +30,13 @@
 
   nav {
     margin: 0px 20px;
-    color: #602a5e;
     font-weight: 500;
+    color: #602a5e;
     cursor: pointer;
   }
-  nav:active {
+  nav:hover {
     color: #fe885e;
     transition: all 350ms;
-    /* &:active {
-      color: rgb(37 99 235);
-    } */
   }
 
   button {
@@ -63,6 +61,9 @@
 
   .burgerMenu {
     display: none;
+    cursor: pointer;
+    font-size: 30px;
+    /* color: #fe885e; */
   }
 }
 
@@ -70,17 +71,22 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1240px) {
   .headerNav {
     nav {
       display: none;
     }
+
     .burgerMenu {
       display: flex;
-      cursor: pointer;
-      font-size: 25px;
-      cursor: pointer;
-      color: #fe885e;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerNav {
+    button {
+      display: none;
     }
   }
 
@@ -88,10 +94,5 @@
     width: 100%;
     display: flex;
     justify-content: center;
-  }
-}
-@media (max-width: 500px) {
-  button {
-    display: none;
   }
 }
