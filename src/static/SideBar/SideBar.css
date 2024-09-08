@@ -1,9 +1,19 @@
 
 
 .generalHeaderContainer{
-  /* display: flex; */
-}
+  /* display: flex;
+  justify-content: flex-end;
+  height: 70px;
+      width: 40px;
+      background-color: red;
+       */
+       display: flex;
+       justify-content: flex-end;
 
+}
+.generalHeaderWrapper{
+
+}
 
 
 .headerNav {

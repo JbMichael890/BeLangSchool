@@ -29,7 +29,7 @@ const CoursesPageFive = () => {
             </span>
           </h1>
           <button>
-            <span>About Us</span>
+            <nav>About Us</nav>
             <FaArrowRight />
           </button>
         </div>

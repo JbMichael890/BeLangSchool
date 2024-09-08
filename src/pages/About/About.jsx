@@ -14,7 +14,7 @@ const About = () => {
       <AboutPageThree />
       <AboutPageFour />
       <AboutPageFive />
-      {/* <AboutPageSix/> */}
+      <AboutPageSix/>
     </div>
   );
 };

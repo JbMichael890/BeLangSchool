@@ -14,7 +14,7 @@ const Courses = () => {
       <CoursesThree />
       <CoursesPageFour />
       <CoursesPageSix />
-      {/* <CoursesPageFive /> */}
+      <CoursesPageFive />
     </div>
   );
 };

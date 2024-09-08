@@ -3,7 +3,7 @@ import JoinGroup from "../../JoinGroup/JoinGroup";
 const HomePageSix = () => {
   return (
     <div>
-      {/* <JoinGroup /> */}
+      <JoinGroup />
     </div>
   );
 };

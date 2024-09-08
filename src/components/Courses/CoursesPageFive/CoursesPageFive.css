@@ -5,8 +5,8 @@
 }
 
 .CoursesPageFiveWrapper {
-  width: 95%;
-  min-height: 120vh;
+  width: 99%;
+  min-height: 100vh;
   background-color: #5f2a5d;
   background-image: url("../../../assets/webp/language4-home-pic6.webp");
   background-repeat: no-repeat;
@@ -18,15 +18,24 @@
   flex-wrap: wrap;
   border-radius: 20px;
   margin: 120px 0px;
+  @media (max-width: 500px) {
+    width: 98%;
+  }
 }
 
 .joinDivCoursesPageFive {
-  /* h1 {
-    font-family: Sora;
-    font-size: 48px;
-    line-height: 56px;
-    color: #ffffff;
-  } */
+  flex-wrap: wrap;
+  @media (max-width: 500px) {
+    margin-top: 600px;
+  }
+  h1 {
+    @media (max-width: 742px) {
+      font-size: 40px;
+    }
+    @media (max-width: 400px) {
+      font-size: 30px;
+    }
+  }
   button {
     display: flex;
     align-items: center;
@@ -41,18 +50,13 @@
     border-radius: 5px;
     cursor: pointer;
     transition: all 350ms;
-/* 
-    span {
-      margin-right: 10px;
-      font-family: Poppins;
-    } */
   }
-/* 
+
   .button:hover {
     opacity: 0.85;
     transition: all 350ms;
     transform: scale(0.95);
-  } */
+  }
 }
 
 .ninityTwoCoursesPageFive {
@@ -70,12 +74,14 @@
   nav {
     margin: 0px 3px;
     background-color: #ff885e;
-    
     height: 25px;
     width: 25px;
     align-items: center;
     justify-content: center;
     display: flex;
     border-radius: 13px;
+  }
+  @media (max-width: 500px) {
+    margin-top: 30px;
   }
 }

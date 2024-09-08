@@ -1,65 +1,87 @@
-.generalCoursesThreeContainer {
+.CoursesPageFiveContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
-.CoursesThreeWrapper {
-  width: 93%;
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-.CoursesPageThreeHolder {
-  display: flex;
-  justify-content: center;
-  margin-right: 100px;
 
-  align-items: center;
-  nav {
-    margin: 20px 0px;
-  }
-  h2 {
-    color: #5f2a5d;
-  }
-  p {
-    font-size: 14px;
-    color: #755365;
-    margin-bottom: 90px;
-    margin-top: 50px;
-  }
-}
-.B2Header {
+.CoursesPageFiveWrapper {
+  width: 99%;
+  min-height: 100vh;
+  background-color: #5f2a5d;
+  background-image: url("../../../assets/webp/language4-home-pic6.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding-bottom: 50px;
   flex-wrap: wrap;
-
-  margin-top: 60px;
-  margin-left: 100px;
-  /* img {
-    width: 500px;
-    margin-bottom: 0px;
-    @media (max-width: 768px) {
-      width: 90%;
-      object-fit: cover;
-      
-    }
-  } */
-  p {
-    color: #602a5e;
+  border-radius: 20px;
+  margin: 120px 0px;
+  @media (max-width: 500px) {
+    width: 98%;
   }
 }
-@media (max-width: 768px) {
-  .CoursesPageFiveWrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.joinDivCoursesPageFive {
+  flex-wrap: wrap;
+  @media (max-width: 500px) {
+    margin-top: 600px;
   }
-  /* img {
-    width: 50px;
-   
-  } */
-  .joinDivCoursesPageFive{
+  h1 {
+    @media (max-width: 742px) {
+      font-size: 40px;
+    }
+    @media (max-width: 400px) {
+      font-size: 30px;
+    }
+  }
+  button {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    border: none;
+    height: 55px;
+    width: 195px;
+    background-color: #ff885e;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 350ms;
+  }
+
+  .button:hover {
+    opacity: 0.85;
+    transition: all 350ms;
+    transform: scale(0.95);
+  }
+}
+
+.ninityTwoCoursesPageFive {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  h1 {
+    margin-right: 20px;
+  }
+}
+.Icons {
+  display: flex;
+  color: white;
+
+  nav {
+    margin: 0px 3px;
+    background-color: #ff885e;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 13px;
+  }
+  @media (max-width: 500px) {
+    margin-top: 30px;
   }
 }
